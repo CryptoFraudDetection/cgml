@@ -50,13 +50,11 @@ make docs-serve
 │   └── raw                   <- The original, immutable data dump.
 │       
 ├── docs                      <- Documentation for the project.
-├── models                    <- Model checkpoints, predictions, metrics, and summaries.
 ├── notebooks                 <- Jupyter or Quarto Markdown Notebooks.
 │                                Naming convention is a number (for ordering) and a short `-`
 │                                delimited description, e.g. `00-example.qmd`.
 │        
 ├── reports                   <- Generated analysis as HTML, PDF, LaTeX, diagrams, etc.
-├── scripts                   <- Scripts for data processing, model training, etc.
 ├── src/CryptoFraudDetection  <- Source code package for use in this project.
 ├── tests                     <- Unit tests for the project.
 ├── .gitignore                <- Files to be ignored by git.
