@@ -50,6 +50,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   icon:
+    logo: fontawesome/brands/bitcoin
     repo: fontawesome/brands/github
 
 extra:
