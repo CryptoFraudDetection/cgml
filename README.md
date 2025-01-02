@@ -56,12 +56,15 @@ make docs-serve
 │        
 ├── reports                   <- Generated analysis as HTML, PDF, LaTeX, diagrams, etc.
 ├── src/CryptoFraudDetection  <- Source code package for use in this project.
-├── tests                     <- Unit tests for the project.
+├── tests                     <- Unit tests for the project.$
+├── .env-example              <- Example environment variables.
 ├── .gitignore                <- Files to be ignored by git.
-├── compose.yml               <- Docker compose file for running the image.
-├── Dockerfile                <- Dockerfile for the Docker image.
 ├── LICENSE                   <- MIT License.
 ├── Makefile                  <- Makefile with commands like `make install` or `make test`.
+├── mkdocs.yaml               <- MkDocs configuration file.
 ├── pyproject.toml            <- Package build configuration.
-└── README.md                 <- The top-level README for this project.
+├── README.md                 <- The top-level README for developers using this project.
+├── ruff.toml                 <- Ruff configuration file.
+└── uv.lock
+
 ```
