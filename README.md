@@ -1,6 +1,6 @@
-# Main
+# cgml
 
-Main repository for the project.
+Repository for the cgml challenge.
 
 ## Installing `uv`
 
