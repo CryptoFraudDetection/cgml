@@ -1,10 +1,10 @@
-site_name: main
-repo_url: https://github.com/CryptoFraudDetection/main
-site_url: https://CryptoFraudDetection.github.io/main
-site_description: An example of a project generated with CryptoFraudDetection/gabocutter
+site_name: cgml
+repo_url: https://github.com/CryptoFraudDetection/cgml
+site_url: https://CryptoFraudDetection.github.io/cgml
+site_description: Repository for the cgml challenge.
 site_author: Gabriel Torres Gamez
-edit_uri: edit/main/docs/
-repo_name: CryptoFraudDetection/main
+edit_uri: edit/cgml/docs/
+repo_name: CryptoFraudDetection/cgml
 
 nav:
   - Home: index.md
@@ -27,7 +27,7 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          paths: [gabocutter_example]
+          paths: [CryptoFraudDetection]
 theme:
   name: material
   feature:
@@ -55,7 +55,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/CryptoFraudDetection/main
+      link: https://github.com/CryptoFraudDetection/cgml
 
 markdown_extensions:
   - toc:
