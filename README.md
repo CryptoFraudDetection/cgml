@@ -1,70 +1,79 @@
-# cgml
+# 🪙 **cgml**  
 
-Repository for the cgml challenge.
+Welcome to the **cgml** repository, created for the `Fraud-Detection using Graphs` challenge! 🚀  
 
-## Installing `uv`
+- 📖 Read the full blog post about this project [here](https://fuet.ch/cryptofrauddetection/).  
+- 📚 Explore the MkDocs documentation [here](https://cryptofrauddetection.github.io/cgml/).  
 
-`uv` is a universal runtime tool for running and managing Python applications. It ensures a streamlined setup and cross-platform compatibility.
+## ⚙️ **Installing `uv`**  
 
-### macOS/Linux  
+`uv` is a universal runtime tool that simplifies running and managing Python applications with cross-platform compatibility.  
+
+### 🐧 macOS/Linux  
 Run the following command in your terminal:  
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+```  
 
-### Windows  
-Execute the following in PowerShell:  
+### 🖥️ Windows  
+Run this command in PowerShell:  
 ```powershell
 powershell -ExecutionPolicy ByPass -Command "irm https://astral.sh/uv/install.ps1 | iex"
-```
+```  
 
-## Setting Up the Environment
+## 🌱 **Setting Up the Environment**  
 
-Run the command below to create a virtual environment and install all required dependencies:  
+To set up your development environment, create a virtual environment and install all dependencies:  
 ```bash
 make install
-```
+```  
 
-Notes:
-- Ensure you have **`make`** installed on your system for the setup command.  
-- For Windows users, you may need to install `make` using tools like **`choco`** or **`winget`**.  
+> **Notes:**  
+> - Ensure `make` is installed on your system.  
+> - Windows users can install `make` via tools like **`choco`** or **`winget`**.  
 
-## MkDocs
-Run the command below to start the MkDocs server:  
+## 📝 **MkDocs Documentation**  
+
+Start the MkDocs server locally with:  
 ```bash
 make docs-serve
 ```
 
-## Further instructions
+## 🛠️ **Further Instructions**  
 
-1. Copy the `.env-example` file to `.env` and fill in the necessary environment variables 🔑
-2. Load the environment variables using the `source .env` command 🔄
-3. You're ready to start working ☕️
+1. Duplicate the `.env-example` file as `.env` and fill in the required environment variables 🔑.  
+2. Load the environment variables:  
+   ```bash
+   source .env
+   ```  
+3. You're ready to start! 🎉  
 
-## Structure
+## 📂 **Project Structure**  
 
-```
-├── .github/workflows         <- Github actions workflows.
+```plaintext
+├── .github/workflows         <- GitHub Actions workflows.  
 ├── data       
-│   ├── processed             <- The final, canonical data sets for modeling.
-│   └── raw                   <- The original, immutable data dump.
+│   ├── processed             <- Final datasets ready for modeling.  
+│   └── raw                   <- Original, immutable data.  
 │       
-├── docs                      <- Documentation for the project.
-├── notebooks                 <- Jupyter or Quarto Markdown Notebooks.
-│                                Naming convention is a number (for ordering) and a short `-`
-│                                delimited description, e.g. `00-example.qmd`.
+├── docs                      <- Project documentation.  
+├── notebooks                 <- Jupyter or Quarto Markdown notebooks.  
+│                                Naming: `00-description.qmd`.  
 │        
-├── reports                   <- Generated analysis as HTML, PDF, LaTeX, diagrams, etc.
-├── src/CryptoFraudDetection  <- Source code package for use in this project.
-├── tests                     <- Unit tests for the project.$
-├── .env-example              <- Example environment variables.
-├── .gitignore                <- Files to be ignored by git.
-├── LICENSE                   <- MIT License.
-├── Makefile                  <- Makefile with commands like `make install` or `make test`.
-├── mkdocs.yaml               <- MkDocs configuration file.
-├── pyproject.toml            <- Package build configuration.
-├── README.md                 <- The top-level README for developers using this project.
-├── ruff.toml                 <- Ruff configuration file.
-└── uv.lock
+├── reports                   <- Generated outputs: HTML, PDF, diagrams, etc.  
+├── src/CryptoFraudDetection  <- Core source code for the project.  
+├── tests                     <- Unit tests.  
+├── .env-example              <- Sample environment variables.  
+├── .gitignore                <- Files ignored by git.  
+├── LICENSE                   <- MIT License.  
+├── Makefile                  <- Commands like `make install` and `make test`.  
+├── mkdocs.yaml               <- MkDocs configuration.  
+├── pyproject.toml            <- Build configuration.  
+├── README.md                 <- This README file.  
+├── ruff.toml                 <- Ruff configuration.  
+└── uv.lock                   <- Dependency lock file.  
+```  
 
-```
+## 📜 **License**  
+
+This project is licensed under the **MIT License**.  
